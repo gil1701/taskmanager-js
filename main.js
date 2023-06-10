@@ -7,7 +7,7 @@ const searchForm = document.querySelector(".search");
 function updateMesssage() {
     const taskLength = tasks.children.length;
 
-    messageSpan.textContent = `You have ${taskLength} pending tasks.`;
+    messageSpan.textContent = `Tienes ${taskLength} tarea(s) pendiente(s).`;
 }
 
 updateMesssage();
